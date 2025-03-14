@@ -232,7 +232,7 @@ function somaArray(numeros) {
   let soma = 0; //correção: soma inicializado
 
 
-  for (let i = 0; i < numeros.length; i++) { //correção: i agora tem um let usar length em vez de size
+  for (let i = 0; i < numeros.length; i++) { //correção: i agora tem um let, usar length em vez de size
       soma += 2 * numeros[i]; //correção: += em vez de apenas =
   }
 
